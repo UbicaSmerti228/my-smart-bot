@@ -1,5 +1,10 @@
 name: Build Geode Mod
-on: [push, pull_request]
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   build:
@@ -9,20 +14,13 @@ jobs:
         config:
         - name: Windows
           os: windows-latest
+
     name: ${{ matrix.config.name }}
     runs-on: ${{ matrix.config.os }}
     steps:
       - uses: actions/checkout@v4
-        with:
-          submodules: recursive
 
       - name: Build Mod
         uses: geode-sdk/build-geode-mod@main
         with:
-          bindings-checkout: true
-
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: ${{ matrix.config.name }}
-          path: build/*.geode
+          sdk: v4.10.2
