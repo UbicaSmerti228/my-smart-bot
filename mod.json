@@ -1,19 +1,12 @@
 {
 	"geode": "4.10.2",
-	"gd": {
-		"win": "2.2074",
-		"android": "2.2074",
-		"mac": "2.2074",
-		"ios": "2.2074"
-	},
+	"gd": "2.2074",
 	"id": "artur.my-smart-bot",
-	"name": "my-smart-bot",
-	"version": "v1.0.0",
+	"name": "My Smart Bot F-Keys",
 	"developer": "artur",
-	"description": "",
-	"dependencies": {
-		"geode.node-ids": ">=v1.20.0"
-	}
+	"version": "1.0.2",
+	"description": "F1-Record, F2-Play, F3-Clear",
+	"repository": "https://github.com/UbicaSmerti228/my-smart-bot"
 }
 
 
