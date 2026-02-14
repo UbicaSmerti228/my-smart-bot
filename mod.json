@@ -2,11 +2,8 @@
 	"geode": "4.10.2",
 	"gd": "2.2074",
 	"id": "artur.my-smart-bot",
-	"name": "My Smart Bot F-Keys",
+	"name": "My Smart Bot",
 	"developer": "artur",
-	"version": "1.0.2",
-	"description": "F1-Record, F2-Play, F3-Clear",
-	"repository": "https://github.com/UbicaSmerti228/my-smart-bot"
+	"version": "1.0.3",
+	"description": "F1-Record, F2-Bot, F3-Clear"
 }
-
-
