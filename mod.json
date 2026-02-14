@@ -1,0 +1,17 @@
+{
+	"geode": "5.0.0-alpha.2",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "artur.my-smart-bot",
+	"name": "my-smart-bot",
+	"version": "v1.0.0",
+	"developer": "artur",
+	"description": "",
+	"dependencies": {
+		"geode.node-ids": ">=v1.20.0"
+	}
+}
